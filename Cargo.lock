@@ -24,14 +24,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c8efb64bd706a16a1bdde310ae86b351e4d21550d98d056f22f8a7f7a2183fec"
 
 [[package]]
-name = "chaos-rs"
-version = "0.1.0"
-dependencies = [
- "nalgebra",
- "serde",
-]
-
-[[package]]
 name = "matrixmultiply"
 version = "0.3.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -66,6 +58,14 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "nonlinear-chaos"
+version = "0.1.0"
+dependencies = [
+ "nalgebra",
+ "serde",
 ]
 
 [[package]]

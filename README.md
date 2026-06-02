@@ -20,7 +20,7 @@ Chaos theory and nonlinear dynamics in Rust — Lyapunov exponents, strange attr
 
 ```toml
 [dependencies]
-chaos-rs = "0.1.0"
+nonlinear-chaos = "0.1.0"
 ```
 
 Requires **Rust 2021 edition**.

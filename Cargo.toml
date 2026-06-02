@@ -1,0 +1,11 @@
+[package]
+name = "chaos-rs"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Chaos theory in Rust — Lyapunov exponents, strange attractors (Lorenz, Rössler), bifurcation analysis, fractal dimensions"
+repository = "https://github.com/SuperInstance/chaos-rs"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
